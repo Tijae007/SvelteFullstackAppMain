@@ -9,7 +9,7 @@ export let form;
 >
   <form method="POST" action="?/deploy">
     <div class="flex flex-wrap -mx-3 mb-2">
-      <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
+      <div class="w-full px-3 mb-6 md:mb-0">
         <label
           class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
           for="bounty"
@@ -24,7 +24,9 @@ export let form;
           name="bounty"
         />
       </div>
-      <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
+      <br>
+      <div class="w-full px-3 mb-6 md:mb-0">
+        <br>
         <label
           class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
           for="square"
@@ -44,6 +46,7 @@ export let form;
               Email
             </label>
           </div> -->
+      <br>    
       <button
         type="submit"
         class="bg-yellow-500 hover:bg-blue-700 text-white font-bold mt-5 ml-2 px-2 rounded "
@@ -65,7 +68,7 @@ export let form;
 >
   <form method="POST" action="?/deploy">
     <div class="flex flex-wrap -mx-3 mb-2">
-      <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
+      <div class="w-full px-3 mb-6 md:mb-0">
         <label
           class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
           for="root"
